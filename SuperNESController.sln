@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNESController", "SuperNESController\SuperNESController.csproj", "{1CD6106B-F224-49FD-ABEE-6E6EF4F900EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F2E749E4-C5EC-46F0-940A-6D5931098C75} = {F2E749E4-C5EC-46F0-940A-6D5931098C75}
+		{EA92F6FB-D3C8-4676-BC88-74BB7203A4AF} = {EA92F6FB-D3C8-4676-BC88-74BB7203A4AF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNESController.Core", "SuperNESController.Core\SuperNESController.Core.csproj", "{4CAC4E91-0008-4CA4-82F5-3010E336A7BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillProcess", "KillProcess\KillProcess.csproj", "{F2E749E4-C5EC-46F0-940A-6D5931098C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardMediaPlayer", "StandardMediaPlayer\StandardMediaPlayer.csproj", "{EA92F6FB-D3C8-4676-BC88-74BB7203A4AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HIDLibrary.Core", "HIDLibrary.Core\HIDLibrary.Core.csproj", "{B4A1B020-5C58-426F-9A4C-1A99DCCF5CF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CD6106B-F224-49FD-ABEE-6E6EF4F900EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD6106B-F224-49FD-ABEE-6E6EF4F900EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD6106B-F224-49FD-ABEE-6E6EF4F900EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD6106B-F224-49FD-ABEE-6E6EF4F900EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAC4E91-0008-4CA4-82F5-3010E336A7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAC4E91-0008-4CA4-82F5-3010E336A7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAC4E91-0008-4CA4-82F5-3010E336A7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAC4E91-0008-4CA4-82F5-3010E336A7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E749E4-C5EC-46F0-940A-6D5931098C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E749E4-C5EC-46F0-940A-6D5931098C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E749E4-C5EC-46F0-940A-6D5931098C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E749E4-C5EC-46F0-940A-6D5931098C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA92F6FB-D3C8-4676-BC88-74BB7203A4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA92F6FB-D3C8-4676-BC88-74BB7203A4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA92F6FB-D3C8-4676-BC88-74BB7203A4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA92F6FB-D3C8-4676-BC88-74BB7203A4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A1B020-5C58-426F-9A4C-1A99DCCF5CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A1B020-5C58-426F-9A4C-1A99DCCF5CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A1B020-5C58-426F-9A4C-1A99DCCF5CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A1B020-5C58-426F-9A4C-1A99DCCF5CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C04FF65-1428-45EA-82D4-3A9672C955AD}
+	EndGlobalSection
+EndGlobal
