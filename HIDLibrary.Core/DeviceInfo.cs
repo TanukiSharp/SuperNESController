@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Win32.SafeHandles;
 using System.IO;
-using System.Runtime.InteropServices;
+using System.Linq;
+using Microsoft.Win32.SafeHandles;
 
 namespace HIDLibrary.Core
 {
@@ -63,7 +61,7 @@ namespace HIDLibrary.Core
 
         public bool Reset()
         {
-            return InitializeDevicePath(DevicePath);
+            return InitializeDevicePath(originalDevicePath);
         }
 
         private bool InitializeDevicePath(string devicePath)
@@ -223,6 +221,12 @@ namespace HIDLibrary.Core
             {
                 Stream.Dispose();
                 Stream = null;
+            }
+
+            if (handle != null)
+            {
+                handle.Dispose();
+                handle = null;
             }
         }
     }
